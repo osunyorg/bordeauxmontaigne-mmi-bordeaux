@@ -28,5 +28,9 @@ items:
 - title: Parcours
   target: "/parcours/"
   kind: page
-  children: []
+  children:
+  - title: Stratégie de communication numérique & design d’expériences
+    target: "/parcours/strategie-de-communication-numerique-design-dexperiences/"
+    kind: page
+    children: []
 
