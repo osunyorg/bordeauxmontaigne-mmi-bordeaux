@@ -1,22 +1,26 @@
 ---
 title: Menu principal
 items:
-- title: Parcours
-  target: "/parcours/"
-  kind: page
+- title: La formation
+  target: ''
+  kind: blank
   children:
-  - title: Stratégie de communication numérique & design d’expériences
-    target: "/parcours/strategie/"
+  - title: Parcours
+    target: "/parcours/"
     kind: page
-    children: []
-  - title: Création numérique
-    target: "/parcours/creation/"
-    kind: page
-    children: []
-  - title: Développement web et dispositifs interactifs
-    target: "/parcours/developpement/"
-    kind: page
-    children: []
+    children:
+    - title: Stratégie de communication numérique & design d’expériences
+      target: "/parcours/strategie/"
+      kind: page
+      children: []
+    - title: Création numérique
+      target: "/parcours/creation/"
+      kind: page
+      children: []
+    - title: Développement web et dispositifs interactifs
+      target: "/parcours/developpement/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -27,10 +31,6 @@ items:
   children: []
 - title: Projets
   target: "/projets/"
-  kind: page
-  children: []
-- title: Équipe
-  target: "/equipe/"
   kind: page
   children: []
 - title: Organisations
