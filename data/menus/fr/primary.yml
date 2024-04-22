@@ -33,4 +33,8 @@ items:
     target: "/parcours/strategie-de-communication-numerique-design-dexperiences/"
     kind: page
     children: []
+  - title: Création numérique
+    target: "/parcours/creation-numerique/"
+    kind: page
+    children: []
 
