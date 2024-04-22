@@ -14,7 +14,7 @@ items:
     kind: page
     children: []
   - title: Développement web et dispositifs interactifs
-    target: "/parcours/developpement-1/"
+    target: "/parcours/developpement/"
     kind: page
     children: []
 - title: Actualités
