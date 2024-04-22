@@ -55,7 +55,7 @@ header_cta:
   label: 
   target: 
 contents_reading_time:
-  seconds: 9
+  seconds: 12
   text: >-
     moins d'une minute
 contents:
@@ -68,7 +68,7 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>Le BUT MMI est le Bachelor Universitaire de Technologie (BUT) Métiers du Multimedia &amp; de l'Internet (MMI), un diplôme national, reconnu par l'État qui se prépare en trois ans.</p>
+        <p>Le BUT MMI est un Bachelor Universitaire de Technologie (BUT) Métiers du Multimedia &amp; de l'Internet (MMI), un diplôme national, reconnu par l'État qui se prépare en trois ans. MMI Bordeaux est un département de <a href="https://www.iut.u-bordeaux-montaigne.fr" target="_blank">l'IUT Bordeaux Montaigne</a>.</p>
 
       notes: >-
         
@@ -82,19 +82,20 @@ contents:
 
 
 
+  - kind: heading
+    title: >-
+      Parcours
+    position: 0
+    rank: 2
   - kind: block
     template: pages
     title: >-
-      Parcours
+      
     ranks:
-      self: 2
+      self: false
       children: 3
     data:
-      page: 
-        path: "/parcours/"
-        slug: "parcours"
-        file: "pages/parcours/_index.html"
-      show_main_description: true
+      show_main_description: false
       show_descriptions: true
       show_images: false
       layout: grid
@@ -118,8 +119,8 @@ contents:
     title: >-
       Compétences
     ranks:
-      self: 2
-      children: 3
+      self: 3
+      children: 4
     data:
       page: 
         path: "/competences/"
@@ -150,6 +151,7 @@ contents:
           slug: "entreprendre"
           file: "pages/competences/entreprendre/_index.html"
           external: false
+
 
 
 
