@@ -17,7 +17,7 @@ items:
       target: "/parcours/creation/"
       kind: page
       children: []
-    - title: Développement web et dispositifs interactifs
+    - title: Développement
       target: "/parcours/developpement/"
       kind: page
       children: []
