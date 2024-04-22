@@ -25,4 +25,8 @@ items:
   target: "/campus/"
   kind: page
   children: []
+- title: Parcours
+  target: "/parcours/"
+  kind: page
+  children: []
 
