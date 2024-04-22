@@ -33,6 +33,10 @@ items:
       target: "/competences/concevoir/"
       kind: page
       children: []
+    - title: Exprimer
+      target: "/competences/exprimer/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
