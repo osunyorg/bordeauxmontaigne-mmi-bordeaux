@@ -29,6 +29,10 @@ items:
       target: "/competences/comprendre/"
       kind: page
       children: []
+    - title: Concevoir
+      target: "/competences/concevoir/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
