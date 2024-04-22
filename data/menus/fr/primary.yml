@@ -53,6 +53,10 @@ items:
       target: "/equipe-pedagogique/"
       kind: page
       children: []
+    - title: Informations pratiques
+      target: "/informations-pratiques/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
