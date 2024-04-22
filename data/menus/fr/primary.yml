@@ -45,6 +45,10 @@ items:
       target: "/competences/entreprendre/"
       kind: page
       children: []
+  - title: Équipe pédagogique
+    target: "/equipe-pedagogique/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
