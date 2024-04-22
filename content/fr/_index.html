@@ -92,15 +92,40 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Compétences
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
-      show_main_description: false
+      page: 
+        path: "/competences/"
+        slug: "competences"
+        file: "pages/competences/_index.html"
+      show_main_description: true
       show_descriptions: false
       show_images: false
-      layout: grid
+      layout: list
       pages:
+        - path: "/competences/comprendre/"
+          slug: "comprendre"
+          file: "pages/competences/comprendre/_index.html"
+          external: false
+        - path: "/competences/concevoir/"
+          slug: "concevoir"
+          file: "pages/competences/concevoir/_index.html"
+          external: false
+        - path: "/competences/exprimer/"
+          slug: "exprimer"
+          file: "pages/competences/exprimer/_index.html"
+          external: false
+        - path: "/competences/developper/"
+          slug: "developper"
+          file: "pages/competences/developper/_index.html"
+          external: false
+        - path: "/competences/entreprendre/"
+          slug: "entreprendre"
+          file: "pages/competences/entreprendre/_index.html"
+          external: false
 
 
 
