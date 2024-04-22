@@ -13,7 +13,7 @@ items:
       target: "/parcours/strategie/"
       kind: page
       children: []
-    - title: Création numérique
+    - title: Création
       target: "/parcours/creation/"
       kind: page
       children: []
