@@ -41,6 +41,10 @@ items:
       target: "/competences/developper/"
       kind: page
       children: []
+    - title: Entreprendre
+      target: "/competences/entreprendre/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
