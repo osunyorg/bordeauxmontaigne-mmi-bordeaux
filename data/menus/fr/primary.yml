@@ -9,7 +9,7 @@ items:
     target: "/parcours/"
     kind: page
     children:
-    - title: Stratégie de communication numérique & design d’expériences
+    - title: Stratégie
       target: "/parcours/strategie/"
       kind: page
       children: []
