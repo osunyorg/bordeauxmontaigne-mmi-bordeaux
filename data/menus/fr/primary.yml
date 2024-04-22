@@ -37,6 +37,10 @@ items:
       target: "/competences/exprimer/"
       kind: page
       children: []
+    - title: Développer
+      target: "/competences/developper/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
