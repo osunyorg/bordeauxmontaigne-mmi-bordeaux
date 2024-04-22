@@ -24,7 +24,11 @@ items:
   - title: Compétences
     target: "/competences/"
     kind: page
-    children: []
+    children:
+    - title: Comprendre
+      target: "/competences/comprendre/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
