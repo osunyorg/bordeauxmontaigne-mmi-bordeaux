@@ -60,15 +60,32 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Parcours
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
-      show_main_description: false
-      show_descriptions: false
+      page: 
+        path: "/parcours/"
+        slug: "parcours"
+        file: "pages/parcours/_index.html"
+      show_main_description: true
+      show_descriptions: true
       show_images: false
       layout: grid
       pages:
+        - path: "/parcours/strategie/"
+          slug: "strategie"
+          file: "pages/parcours/strategie/_index.html"
+          external: false
+        - path: "/parcours/creation/"
+          slug: "creation"
+          file: "pages/parcours/creation/_index.html"
+          external: false
+        - path: "/parcours/developpement/"
+          slug: "developpement"
+          file: "pages/parcours/developpement/_index.html"
+          external: false
 
 
 
