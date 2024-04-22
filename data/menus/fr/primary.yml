@@ -21,6 +21,10 @@ items:
       target: "/parcours/developpement/"
       kind: page
       children: []
+  - title: Compétences
+    target: "/competences/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
