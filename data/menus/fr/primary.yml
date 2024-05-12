@@ -45,7 +45,7 @@ items:
       target: "/competences/entreprendre/"
       kind: page
       children: []
-  - title: L'essentiel
+  - title: Pédagogie
     target: ''
     kind: blank
     children:
