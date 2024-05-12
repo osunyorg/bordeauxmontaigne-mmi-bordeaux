@@ -9,4 +9,8 @@ items:
   target: https://www.iut.u-bordeaux-montaigne.fr
   kind: url
   children: []
+- title: Université Bordeaux Montaigne
+  target: https://www.u-bordeaux-montaigne.fr
+  kind: url
+  children: []
 
