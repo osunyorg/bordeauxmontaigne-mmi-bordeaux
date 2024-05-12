@@ -54,11 +54,11 @@ items:
       kind: page
       children: []
     - title: Ateliers
-      target: "/ateliers/"
+      target: "/pedagogie/ateliers/"
       kind: page
       children: []
     - title: Informations pratiques
-      target: "/informations-pratiques/"
+      target: "/pedagogie/informations-pratiques/"
       kind: page
       children: []
 - title: Actualités
