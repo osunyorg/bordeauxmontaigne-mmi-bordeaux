@@ -5,7 +5,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Métiers du Multimédia et de l'Internet
+  - title: BUT MMI
     target: "/formations/metiers-du-multimedia-et-de-l-internet/"
     kind: program
     children: []
