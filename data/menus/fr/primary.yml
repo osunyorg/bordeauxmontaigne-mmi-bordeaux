@@ -69,4 +69,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Candidater
+  target: "/candidater/"
+  kind: page
+  children: []
 
