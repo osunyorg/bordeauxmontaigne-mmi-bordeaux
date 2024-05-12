@@ -1,4 +1,8 @@
 ---
 title: Liens sociaux
-items: []
+items:
+- title: Observatoire MMI
+  target: https://observatoire.butmmi.fr
+  kind: url
+  children: []
 
