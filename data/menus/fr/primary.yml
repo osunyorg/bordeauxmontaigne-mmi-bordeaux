@@ -61,6 +61,10 @@ items:
       target: "/pedagogie/informations-pratiques/"
       kind: page
       children: []
+    - title: Partenaires
+      target: "/pedagogie/partenaires/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
