@@ -53,12 +53,12 @@ items:
       target: "/equipe-pedagogique/"
       kind: page
       children: []
-    - title: Informations pratiques
-      target: "/informations-pratiques/"
-      kind: page
-      children: []
     - title: Ateliers
       target: "/ateliers/"
+      kind: page
+      children: []
+    - title: Informations pratiques
+      target: "/informations-pratiques/"
       kind: page
       children: []
 - title: Actualités
