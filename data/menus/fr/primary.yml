@@ -46,8 +46,8 @@ items:
       kind: page
       children: []
   - title: Pédagogie
-    target: ''
-    kind: blank
+    target: "/pedagogie/"
+    kind: page
     children:
     - title: Équipe
       target: "/pedagogie/equipe-pedagogique/"
