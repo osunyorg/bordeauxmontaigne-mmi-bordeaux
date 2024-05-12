@@ -5,4 +5,8 @@ items:
   target: https://observatoire.butmmi.fr
   kind: url
   children: []
+- title: IUT Bordeaux Montaigne
+  target: https://www.iut.u-bordeaux-montaigne.fr
+  kind: url
+  children: []
 
