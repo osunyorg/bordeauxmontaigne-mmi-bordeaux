@@ -5,6 +5,10 @@ items:
   target: ''
   kind: blank
   children:
+  - title: Métiers du Multimédia et de l'Internet
+    target: "/formations/metiers-du-multimedia-et-de-l-internet/"
+    kind: program
+    children: []
   - title: Parcours
     target: "/parcours/"
     kind: page
