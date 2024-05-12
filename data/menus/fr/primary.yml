@@ -57,6 +57,10 @@ items:
       target: "/informations-pratiques/"
       kind: page
       children: []
+    - title: Ateliers
+      target: "/ateliers/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
