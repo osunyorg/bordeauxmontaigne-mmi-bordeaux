@@ -49,7 +49,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Équipe pédagogique
+    - title: Équipe
       target: "/equipe-pedagogique/"
       kind: page
       children: []
