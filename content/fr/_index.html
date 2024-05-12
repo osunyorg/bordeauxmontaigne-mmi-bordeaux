@@ -104,15 +104,19 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Parcours
     ranks:
-      self: false
-      children: 2
+      self: 2
+      children: 3
     data:
-      show_main_description: false
-      show_descriptions: true
+      page: 
+        path: "/parcours/"
+        slug: "parcours"
+        file: "pages/parcours/_index.html"
+      show_main_description: true
+      show_descriptions: false
       show_images: false
-      layout: grid
+      layout: list
       pages:
         - path: "/parcours/strategie/"
           slug: "strategie"
