@@ -83,25 +83,38 @@ contents:
 
 
   - kind: block
-    template: posts
+    template: pages
     title: >-
-      
+      Référentiel de compétences
     ranks:
-      self: false
-      children: 2
+      self: 2
+      children: 3
     data:
-      mode: all
-      hide_image: false
-      hide_summary: false
-      hide_category: false
-      hide_author: false
-      hide_date: false
-      all: true
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
       layout: grid
-      posts:
-        - "2023/2023-03-05-midjourney-on-rails"
-        - "2022/2022-06-01-je-filme-ma-formation"
-        - "2019/2019-03-12-fais-moi-signe-la-plateforme-autour-de-la-langue-des-signes-francaise"
+      pages:
+        - path: "/competences/comprendre/"
+          slug: "comprendre"
+          file: "pages/competences/comprendre/_index.html"
+          external: false
+        - path: "/competences/concevoir/"
+          slug: "concevoir"
+          file: "pages/competences/concevoir/_index.html"
+          external: false
+        - path: "/competences/exprimer/"
+          slug: "exprimer"
+          file: "pages/competences/exprimer/_index.html"
+          external: false
+        - path: "/competences/developper/"
+          slug: "developper"
+          file: "pages/competences/developper/_index.html"
+          external: false
+        - path: "/competences/entreprendre/"
+          slug: "entreprendre"
+          file: "pages/competences/entreprendre/_index.html"
+          external: false
 
 
   - kind: block
@@ -136,38 +149,25 @@ contents:
 
 
   - kind: block
-    template: pages
+    template: posts
     title: >-
-      Référentiel de compétences
+      
     ranks:
-      self: 2
-      children: 3
+      self: false
+      children: 2
     data:
-      show_main_description: false
-      show_descriptions: true
-      show_images: false
+      mode: all
+      hide_image: false
+      hide_summary: false
+      hide_category: false
+      hide_author: false
+      hide_date: false
+      all: true
       layout: grid
-      pages:
-        - path: "/competences/comprendre/"
-          slug: "comprendre"
-          file: "pages/competences/comprendre/_index.html"
-          external: false
-        - path: "/competences/concevoir/"
-          slug: "concevoir"
-          file: "pages/competences/concevoir/_index.html"
-          external: false
-        - path: "/competences/exprimer/"
-          slug: "exprimer"
-          file: "pages/competences/exprimer/_index.html"
-          external: false
-        - path: "/competences/developper/"
-          slug: "developper"
-          file: "pages/competences/developper/_index.html"
-          external: false
-        - path: "/competences/entreprendre/"
-          slug: "entreprendre"
-          file: "pages/competences/entreprendre/_index.html"
-          external: false
+      posts:
+        - "2023/2023-03-05-midjourney-on-rails"
+        - "2022/2022-06-01-je-filme-ma-formation"
+        - "2019/2019-03-12-fais-moi-signe-la-plateforme-autour-de-la-langue-des-signes-francaise"
 
 
 
