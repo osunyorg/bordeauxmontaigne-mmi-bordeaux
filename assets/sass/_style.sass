@@ -16,3 +16,56 @@
             a
                 background: $color-accent
                 color: $color-background
+.bibliography
+    &__section
+        .container
+            .book
+                border-bottom: 1px solid var(--color-border)
+                display: flex
+                flex-direction: column
+                gap: var(--grid-gutter)
+                padding-bottom: $spacing-3
+                padding-top: $spacing-3
+                position: relative
+                .book-content
+                    .book-title
+                        text-decoration: none
+                        @include h3
+                        @include stretched-link
+                .book-comment
+                    @include blockquote
+                    color: $color-accent
+                .media
+                    order: -1
+                    // width: columns(6)
+                    line-height: 0
+                    img
+                        border: 1px solid $color-border
+                @include media-breakpoint-up(lg)
+                    flex-direction: row
+                    .book-content
+                        display: flex
+                        flex-direction: column
+                        width: columns(6)
+                    .book-comment
+                        width: columns(4)
+                    .media
+                        width: columns(2)
+    &__page
+        .media
+            margin-bottom: $spacing-4
+        .book-comment
+            color: $color-accent
+            padding-bottom: $spacing-4
+            @include blockquote
+        .book-isbn,
+        .book-website
+            @include meta
+        @include media-breakpoint-up(lg)
+            .media
+                position: absolute
+                width: columns(3)
+            .book-content
+                padding-left: offset(4)
+            .book-comment
+                padding-bottom: $spacing-6

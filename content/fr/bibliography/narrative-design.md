@@ -1,0 +1,21 @@
+---
+title: Narrative design
+slug: narrative-design
+breadcrumbs:
+  - title: >-
+      Accueil
+    path: "/"
+  - title: >-
+      Bibliographie
+    path: "/bibliographie"
+  - title: >-
+      Narrative design
+author: Fibre Tigre
+cover: narrative-design.jpg
+summary: Une série de vidéos sur le narrative design
+free_resource: https://www.youtube.com/watch?v=UkEPbRr4mA8&list=PLbe1zSFCrWr3QrmkkLR874cl1prqtvkYv
+mandatory: false
+paths:
+- "/competences/exprimer"
+- "/parcours/creation-numerique"
+---

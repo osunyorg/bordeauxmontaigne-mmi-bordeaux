@@ -1,0 +1,40 @@
+{{ define "main" }}
+  {{- partial "header/hero.html"
+        (dict
+          "title" .Title
+          "subtitle" .Params.author
+          "context" .
+        ) -}}
+
+  <div class="document-content">
+    <div class="container">
+      <div class="media">
+        <img src="/assets/images/bibliography/{{ .Params.cover }}" alt="" loading="lazy" />
+      </div>
+      <div class="book-content">
+        {{ with .Params.importance }}
+          <p class="book-comment">
+            {{ safeHTML . }}
+          </p>
+        {{ end }}
+          
+        {{ with .Params.summary }}
+          <p>{{ safeHTML . }}</p>
+        {{ end }}
+
+        {{ with .Params.isbn }}
+          <p class="book-isbn">ISBN {{ . }}</p>
+        {{ end }}
+
+        {{ with .Params.site }}
+          <p class="book-website">Site <a href="{{ . }}" target="_blank">{{ . }}</a></p>
+        {{ end }}
+      </div>
+    </div>
+    {{ partial "commons/siblings-navigation.html" (dict
+      "context" .
+      "previous_label" "Référence précédente"
+      "next_label" "Référence suivante"
+    ) }}
+  </div>
+{{ end }}

@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{- partial "header/hero.html"
+        (dict
+          "title" .Title
+          "context" .
+        ) -}}
+  <div class="document-content">
+    <div class="container">
+      {{ range .Pages }}
+        <article class="book">
+          <div class="book-content">
+            <a href="{{ .Permalink }}" class="book-title">
+              {{ .Title }}
+            </a>
+            <p>
+              {{ .Params.author }}
+            </p>
+          </div>
+          {{ with .Params.importance }}
+            <p class="book-comment">
+              {{ . | plainify }}
+            </p>
+          {{ end }}
+          <div class="media">
+            <img src="/assets/images/bibliography/{{ .Params.cover }}" alt="" loading="lazy" />
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
