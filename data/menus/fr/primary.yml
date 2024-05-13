@@ -58,7 +58,7 @@ items:
       kind: page
       children: []
     - title: Ateliers
-      target: "/ateliers/"
+      target: "/projets/"
       kind: page
       children: []
     - title: Informations pratiques
