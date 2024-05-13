@@ -18,7 +18,7 @@
           </div>
           {{ with .Params.importance }}
             <p class="book-comment">
-              {{ . | plainify }}
+              {{ safeHTML (. | plainify) }}
             </p>
           {{ end }}
           <div class="media">
