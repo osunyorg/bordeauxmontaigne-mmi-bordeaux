@@ -69,6 +69,10 @@ items:
       target: "/pedagogie/partenaires/"
       kind: page
       children: []
+    - title: Bibliographie
+      target: "/bibliographie"
+      kind: url
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
