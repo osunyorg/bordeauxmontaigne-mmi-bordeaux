@@ -73,6 +73,10 @@ items:
       target: "/bibliographie"
       kind: url
       children: []
+    - title: Alternance
+      target: "/pedagogie/alternance/"
+      kind: page
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
