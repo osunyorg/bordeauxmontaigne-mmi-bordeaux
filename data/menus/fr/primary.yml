@@ -65,6 +65,10 @@ items:
       target: "/pedagogie/informations-pratiques/"
       kind: page
       children: []
+    - title: Alternance
+      target: "/pedagogie/alternance/"
+      kind: page
+      children: []
     - title: Partenaires
       target: "/pedagogie/partenaires/"
       kind: page
@@ -72,10 +76,6 @@ items:
     - title: Bibliographie
       target: "/bibliographie"
       kind: url
-      children: []
-    - title: Alternance
-      target: "/pedagogie/alternance/"
-      kind: page
       children: []
 - title: Actualités
   target: "/actualites/"
