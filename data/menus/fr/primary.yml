@@ -9,6 +9,7 @@ items:
     target: "/formations/metiers-du-multimedia-et-de-l-internet/"
     kind: program
     children: []
+    file: content/fr/programs/metiers-du-multimedia-et-de-l-internet/_index.html
   - title: Parcours
     target: "/parcours/"
     kind: page
@@ -17,14 +18,18 @@ items:
       target: "/parcours/strategie/"
       kind: page
       children: []
+      file: content/fr/pages/parcours/strategie/_index.html
     - title: Création
       target: "/parcours/creation/"
       kind: page
       children: []
+      file: content/fr/pages/parcours/creation/_index.html
     - title: Développement
       target: "/parcours/developpement/"
       kind: page
       children: []
+      file: content/fr/pages/parcours/developpement/_index.html
+    file: content/fr/pages/parcours/_index.html
   - title: Compétences
     target: "/competences/"
     kind: page
@@ -33,22 +38,28 @@ items:
       target: "/competences/comprendre/"
       kind: page
       children: []
+      file: content/fr/pages/competences/comprendre/_index.html
     - title: Concevoir
       target: "/competences/concevoir/"
       kind: page
       children: []
+      file: content/fr/pages/competences/concevoir/_index.html
     - title: Exprimer
       target: "/competences/exprimer/"
       kind: page
       children: []
+      file: content/fr/pages/competences/exprimer/_index.html
     - title: Développer
       target: "/competences/developper/"
       kind: page
       children: []
+      file: content/fr/pages/competences/developper/_index.html
     - title: Entreprendre
       target: "/competences/entreprendre/"
       kind: page
       children: []
+      file: content/fr/pages/competences/entreprendre/_index.html
+    file: content/fr/pages/competences/_index.html
   - title: Pédagogie
     target: "/pedagogie/"
     kind: page
@@ -57,32 +68,40 @@ items:
       target: "/pedagogie/equipe-pedagogique/"
       kind: page
       children: []
+      file: content/fr/pages/pedagogie/equipe-pedagogique/_index.html
     - title: Ateliers
       target: "/projets/"
       kind: page
       children: []
+      file: content/fr/projects/_index.html
     - title: Informations pratiques
       target: "/pedagogie/informations-pratiques/"
       kind: page
       children: []
+      file: content/fr/pages/pedagogie/informations-pratiques/_index.html
     - title: Alternance
       target: "/pedagogie/alternance/"
       kind: page
       children: []
+      file: content/fr/pages/pedagogie/alternance/_index.html
     - title: Partenaires
       target: "/pedagogie/partenaires/"
       kind: page
       children: []
+      file: content/fr/pages/pedagogie/partenaires/_index.html
     - title: Bibliographie
       target: "/bibliographie"
       kind: url
       children: []
+    file: content/fr/pages/pedagogie/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 - title: Candidater
   target: "/candidater/"
   kind: page
   children: []
+  file: content/fr/pages/candidater/_index.html
 
