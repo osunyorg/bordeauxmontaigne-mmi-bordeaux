@@ -7,13 +7,24 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      x: >-
-        https://twitter.com/mmibdx
-      linkedin: >-
-        https://www.linkedin.com/school/mmibordeaux/
-      facebook: >-
-        https://www.facebook.com/mmibordeaux/
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            mmibordeaux
+          value: >-
+            https://www.facebook.com/mmibordeaux
+        linkedin:
+          label: >-
+            linkedin.comschoolmmibordeaux
+          value: >-
+            https://www.linkedin.com/school/mmibordeaux/
+        x:
+          label: >-
+            mmibdx
+          value: >-
+            https://x.com/mmibdx
+
   permalinks:
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
