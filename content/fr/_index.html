@@ -4,13 +4,14 @@ breadcrumb_title: >-
 title: >-
   BUT MMI
 url: "/"
+slug: ""
 date: 2024-04-22T10:23:24+02:00
 lastmod: 2024-09-29T10:23:11+02:00
 meta:
   hugo:
     permalink: "/"
+    path: "/"
     file: "content/fr/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2024-04-22T10:23:24+02:00
@@ -136,11 +137,17 @@ contents:
         link: false
 
       persons:
-        - slug: "marlene-dulaurans"
+        - permalink: "/equipe/marlene-dulaurans/"
+          path: "/persons/marlene-dulaurans"
+          slug: "marlene-dulaurans"
+          file: "content/fr/persons/marlene-dulaurans.html"
           role: >-
             Cheffe de département
 
-        - slug: "arnaud-levy"
+        - permalink: "/equipe/arnaud-levy/"
+          path: "/persons/arnaud-levy"
+          slug: "arnaud-levy"
+          file: "content/fr/persons/arnaud-levy.html"
           role: >-
             Directeur des études
 
@@ -157,9 +164,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/parcours/"
+        permalink: "/parcours/"
+        path: "/pages/parcours"
         slug: "parcours"
-        file: "pages/parcours/_index.html"
+        file: "content/fr/pages/parcours/_index.html"
       options:
         image: true
         main_summary: false
@@ -167,18 +175,19 @@ contents:
 
       layout: grid
       pages:
-        - path: "/parcours/strategie/"
+        - permalink: "/parcours/strategie/"
+          path: "/pages/parcours/strategie"
           slug: "strategie"
-          file: "pages/parcours/strategie/_index.html"
-          external: false
-        - path: "/parcours/creation/"
+          file: "content/fr/pages/parcours/strategie/_index.html"
+        - permalink: "/parcours/creation/"
+          path: "/pages/parcours/creation"
           slug: "creation"
-          file: "pages/parcours/creation/_index.html"
-          external: false
-        - path: "/parcours/developpement/"
+          file: "content/fr/pages/parcours/creation/_index.html"
+        - permalink: "/parcours/developpement/"
+          path: "/pages/parcours/developpement"
           slug: "developpement"
-          file: "pages/parcours/developpement/_index.html"
-          external: false
+          file: "content/fr/pages/parcours/developpement/_index.html"
+
 
 
   - kind: block
@@ -192,9 +201,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/competences/"
+        permalink: "/competences/"
+        path: "/pages/competences"
         slug: "competences"
-        file: "pages/competences/_index.html"
+        file: "content/fr/pages/competences/_index.html"
       options:
         image: false
         main_summary: false
@@ -202,26 +212,27 @@ contents:
 
       layout: grid
       pages:
-        - path: "/competences/comprendre/"
+        - permalink: "/competences/comprendre/"
+          path: "/pages/competences/comprendre"
           slug: "comprendre"
-          file: "pages/competences/comprendre/_index.html"
-          external: false
-        - path: "/competences/concevoir/"
+          file: "content/fr/pages/competences/comprendre/_index.html"
+        - permalink: "/competences/concevoir/"
+          path: "/pages/competences/concevoir"
           slug: "concevoir"
-          file: "pages/competences/concevoir/_index.html"
-          external: false
-        - path: "/competences/exprimer/"
+          file: "content/fr/pages/competences/concevoir/_index.html"
+        - permalink: "/competences/exprimer/"
+          path: "/pages/competences/exprimer"
           slug: "exprimer"
-          file: "pages/competences/exprimer/_index.html"
-          external: false
-        - path: "/competences/developper/"
+          file: "content/fr/pages/competences/exprimer/_index.html"
+        - permalink: "/competences/developper/"
+          path: "/pages/competences/developper"
           slug: "developper"
-          file: "pages/competences/developper/_index.html"
-          external: false
-        - path: "/competences/entreprendre/"
+          file: "content/fr/pages/competences/developper/_index.html"
+        - permalink: "/competences/entreprendre/"
+          path: "/pages/competences/entreprendre"
           slug: "entreprendre"
-          file: "pages/competences/entreprendre/_index.html"
-          external: false
+          file: "content/fr/pages/competences/entreprendre/_index.html"
+
 
 
   - kind: block
@@ -247,12 +258,31 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-02-21-ateliers-jeux-videos"
-        - "2023/2023-07-27-mmi-workshop-2023-bilan"
-        - "2023/2023-04-04-altermmi"
-        - "2023/2023-04-01-mmi-workshop-2023-point-detape"
-        - "2023/2023-03-17-sur-laccessibilite-en-but-mmi"
-        - "2023/2023-03-05-midjourney-on-rails"
+        - permalink: "/actualites/2024-02-21-ateliers-jeux-videos/"
+          path: "/posts/2024/2024-02-21-ateliers-jeux-videos"
+          slug: "ateliers-jeux-videos"
+          file: "content/fr/posts/2024/2024-02-21-ateliers-jeux-videos.html"
+        - permalink: "/actualites/2023-07-27-mmi-workshop-2023-bilan/"
+          path: "/posts/2023/2023-07-27-mmi-workshop-2023-bilan"
+          slug: "mmi-workshop-2023-bilan"
+          file: "content/fr/posts/2023/2023-07-27-mmi-workshop-2023-bilan.html"
+        - permalink: "/actualites/2023-04-04-altermmi/"
+          path: "/posts/2023/2023-04-04-altermmi"
+          slug: "altermmi"
+          file: "content/fr/posts/2023/2023-04-04-altermmi.html"
+        - permalink: "/actualites/2023-04-01-mmi-workshop-2023-point-detape/"
+          path: "/posts/2023/2023-04-01-mmi-workshop-2023-point-detape"
+          slug: "mmi-workshop-2023-point-detape"
+          file: "content/fr/posts/2023/2023-04-01-mmi-workshop-2023-point-detape.html"
+        - permalink: "/actualites/2023-03-17-sur-laccessibilite-en-but-mmi/"
+          path: "/posts/2023/2023-03-17-sur-laccessibilite-en-but-mmi"
+          slug: "sur-laccessibilite-en-but-mmi"
+          file: "content/fr/posts/2023/2023-03-17-sur-laccessibilite-en-but-mmi.html"
+        - permalink: "/actualites/2023-03-05-midjourney-on-rails/"
+          path: "/posts/2023/2023-03-05-midjourney-on-rails"
+          slug: "midjourney-on-rails"
+          file: "content/fr/posts/2023/2023-03-05-midjourney-on-rails.html"
+
 
 
 
