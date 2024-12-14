@@ -9,6 +9,7 @@ items:
     target: "/formations/metiers-du-multimedia-et-de-l-internet/"
     kind: program
     children: []
+    path: "/programs/metiers-du-multimedia-et-de-l-internet"
     file: content/fr/programs/metiers-du-multimedia-et-de-l-internet/_index.html
   - title: Parcours
     target: "/parcours/"
@@ -18,17 +19,21 @@ items:
       target: "/parcours/strategie/"
       kind: page
       children: []
+      path: "/pages/parcours/strategie"
       file: content/fr/pages/parcours/strategie/_index.html
     - title: Création
       target: "/parcours/creation/"
       kind: page
       children: []
+      path: "/pages/parcours/creation"
       file: content/fr/pages/parcours/creation/_index.html
     - title: Développement
       target: "/parcours/developpement/"
       kind: page
       children: []
+      path: "/pages/parcours/developpement"
       file: content/fr/pages/parcours/developpement/_index.html
+    path: "/pages/parcours"
     file: content/fr/pages/parcours/_index.html
   - title: Compétences
     target: "/competences/"
@@ -38,27 +43,33 @@ items:
       target: "/competences/comprendre/"
       kind: page
       children: []
+      path: "/pages/competences/comprendre"
       file: content/fr/pages/competences/comprendre/_index.html
     - title: Concevoir
       target: "/competences/concevoir/"
       kind: page
       children: []
+      path: "/pages/competences/concevoir"
       file: content/fr/pages/competences/concevoir/_index.html
     - title: Exprimer
       target: "/competences/exprimer/"
       kind: page
       children: []
+      path: "/pages/competences/exprimer"
       file: content/fr/pages/competences/exprimer/_index.html
     - title: Développer
       target: "/competences/developper/"
       kind: page
       children: []
+      path: "/pages/competences/developper"
       file: content/fr/pages/competences/developper/_index.html
     - title: Entreprendre
       target: "/competences/entreprendre/"
       kind: page
       children: []
+      path: "/pages/competences/entreprendre"
       file: content/fr/pages/competences/entreprendre/_index.html
+    path: "/pages/competences"
     file: content/fr/pages/competences/_index.html
   - title: Pédagogie
     target: "/pedagogie/"
@@ -68,40 +79,48 @@ items:
       target: "/pedagogie/equipe-pedagogique/"
       kind: page
       children: []
+      path: "/pages/pedagogie/equipe-pedagogique"
       file: content/fr/pages/pedagogie/equipe-pedagogique/_index.html
     - title: Ateliers
       target: "/projets/"
       kind: page
       children: []
+      path: "/projects"
       file: content/fr/projects/_index.html
     - title: Informations pratiques
       target: "/pedagogie/informations-pratiques/"
       kind: page
       children: []
+      path: "/pages/pedagogie/informations-pratiques"
       file: content/fr/pages/pedagogie/informations-pratiques/_index.html
     - title: Alternance
       target: "/pedagogie/alternance/"
       kind: page
       children: []
+      path: "/pages/pedagogie/alternance"
       file: content/fr/pages/pedagogie/alternance/_index.html
     - title: Partenaires
       target: "/pedagogie/partenaires/"
       kind: page
       children: []
+      path: "/pages/pedagogie/partenaires"
       file: content/fr/pages/pedagogie/partenaires/_index.html
     - title: Bibliographie
       target: "/bibliographie"
       kind: url
       children: []
+    path: "/pages/pedagogie"
     file: content/fr/pages/pedagogie/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
+  path: "/posts"
   file: content/fr/posts/_index.html
 - title: Candidater
   target: "/candidater/"
   kind: page
   children: []
+  path: "/pages/candidater"
   file: content/fr/pages/candidater/_index.html
 
