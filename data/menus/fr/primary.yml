@@ -4,32 +4,38 @@ items:
 - title: La formation
   target: ''
   kind: blank
+  new_tab: false
   children:
   - title: BUT MMI
     target: "/formations/metiers-du-multimedia-et-de-l-internet/"
     kind: program
+    new_tab: false
     children: []
     path: "/programs/metiers-du-multimedia-et-de-l-internet"
     file: content/fr/programs/metiers-du-multimedia-et-de-l-internet/_index.html
   - title: Parcours
     target: "/parcours/"
     kind: page
+    new_tab: false
     children:
     - title: Stratégie
       target: "/parcours/strategie/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/parcours/strategie"
       file: content/fr/pages/parcours/strategie/_index.html
     - title: Création
       target: "/parcours/creation/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/parcours/creation"
       file: content/fr/pages/parcours/creation/_index.html
     - title: Développement
       target: "/parcours/developpement/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/parcours/developpement"
       file: content/fr/pages/parcours/developpement/_index.html
@@ -38,34 +44,40 @@ items:
   - title: Compétences
     target: "/competences/"
     kind: page
+    new_tab: false
     children:
     - title: Comprendre
       target: "/competences/comprendre/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/competences/comprendre"
       file: content/fr/pages/competences/comprendre/_index.html
     - title: Concevoir
       target: "/competences/concevoir/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/competences/concevoir"
       file: content/fr/pages/competences/concevoir/_index.html
     - title: Exprimer
       target: "/competences/exprimer/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/competences/exprimer"
       file: content/fr/pages/competences/exprimer/_index.html
     - title: Développer
       target: "/competences/developper/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/competences/developper"
       file: content/fr/pages/competences/developper/_index.html
     - title: Entreprendre
       target: "/competences/entreprendre/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/competences/entreprendre"
       file: content/fr/pages/competences/entreprendre/_index.html
@@ -74,52 +86,61 @@ items:
   - title: Pédagogie
     target: "/pedagogie/"
     kind: page
+    new_tab: false
     children:
     - title: Équipe
       target: "/pedagogie/equipe-pedagogique/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/pedagogie/equipe-pedagogique"
       file: content/fr/pages/pedagogie/equipe-pedagogique/_index.html
     - title: Ateliers
       target: "/projets/"
       kind: page
+      new_tab: false
       children: []
       path: "/projects"
       file: content/fr/projects/_index.html
     - title: Informations pratiques
       target: "/pedagogie/informations-pratiques/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/pedagogie/informations-pratiques"
       file: content/fr/pages/pedagogie/informations-pratiques/_index.html
     - title: Alternance
       target: "/pedagogie/alternance/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/pedagogie/alternance"
       file: content/fr/pages/pedagogie/alternance/_index.html
     - title: Partenaires
       target: "/pedagogie/partenaires/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/pedagogie/partenaires"
       file: content/fr/pages/pedagogie/partenaires/_index.html
     - title: Bibliographie
       target: "/bibliographie"
       kind: url
+      new_tab: false
       children: []
     path: "/pages/pedagogie"
     file: content/fr/pages/pedagogie/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Candidater
   target: "/candidater/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/candidater"
   file: content/fr/pages/candidater/_index.html

@@ -4,13 +4,16 @@ items:
 - title: IUT Bordeaux Montaigne
   target: https://www.iut.u-bordeaux-montaigne.fr
   kind: url
+  new_tab: true
   children: []
 - title: Université Bordeaux Montaigne
   target: https://www.u-bordeaux-montaigne.fr
   kind: url
+  new_tab: true
   children: []
 - title: Observatoire MMI
   target: https://observatoire.butmmi.fr
   kind: url
+  new_tab: true
   children: []
 
