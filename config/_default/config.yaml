@@ -1,8 +1,11 @@
 theme: mmibordeaux-hugo-theme
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
-
+_merge: deep
+params:
+  programs:
+    single:
+      options:
+        logo: false
+        website_link: false
 languages:
   fr:
     permalinks:
