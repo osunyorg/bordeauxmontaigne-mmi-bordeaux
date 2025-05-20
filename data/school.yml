@@ -1,0 +1,192 @@
+---
+name: "IUT Bordeaux Montaigne"
+address: >-
+  1 rue Jacques Ellul
+zipcode: "33080"
+city: "Bordeaux Cedex"
+country: "France"
+phone: "+33 5 57 12 20 44"
+url: ""
+contact_details:
+  postal_address:
+    data:
+      address_name: >-
+        
+      address: >-
+        1 rue Jacques Ellul
+      address_additional: >-
+        
+      zipcode: >-
+        33080
+      city: >-
+        Bordeaux Cedex
+      country:
+        name: >-
+          France
+        alpha2: >-
+          FR
+        alpha3: >-
+          FRA
+    geolocation:
+      latitude: 
+      longitude: 
+    text: >-
+      1 rue Jacques Ellul 33080 Bordeaux Cedex FRANCE
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">1 rue Jacques Ellul</span> <span itemprop="postalCode">33080</span> <span itemprop="addressLocality">Bordeaux Cedex</span> <span itemprop="addressCountry">FRANCE</span></address>
+  phone_numbers:
+    phone:
+      label: >-
+        +33 5 57 12 20 44
+      value: >-
+        tel:+33557122044
+
+logo:
+  id: "0e6055d6-b4ee-415b-90ac-df77cd1bd826"
+administrators:
+  - "assad-abderemane"
+  - "jeanne-baloup"
+  - "elisabeth-benazza"
+  - "quentin-bessiere"
+  - "camille-boivin"
+  - "laurine-bremaud"
+  - "nassima-choltus"
+  - "stephane-colnay"
+  - "aurelien-cornille"
+  - "melisse-debes"
+  - "aurelie-doumbo"
+  - "helene-ertle"
+  - "marina-esteves"
+  - "johanna-hourregue"
+  - "hugo-kabansky"
+  - "david-lachaud"
+  - "eric-lamothe"
+  - "catherine-lecart"
+  - "salima-mahtout"
+  - "hmonneriesor"
+  - "pauline-morisset"
+  - "julien-muzard"
+  - "herve-panhaleux"
+  - "justin-puyo"
+  - "michele-quellier"
+  - "weiwei-reynet"
+  - "apolline-satta"
+  - "camille-seguin"
+  - "laurianne-seran"
+  - "louise-elodie-seran"
+  - "gaelle-suchestow"
+  - "theodore-tangoulis"
+  - "corine-videau"
+  - "mzaquithorea"
+administrators_description:
+  "assad-abderemane": >-
+    Secrétariat Information - Communication
+  "jeanne-baloup": >-
+    Accueil
+  "elisabeth-benazza": >-
+    Service Patrimoine logistique et maintenance
+  "quentin-bessiere": >-
+    Secrétariat PUB - MMI
+  "camille-boivin": >-
+    Centre de Ressources Montaigne
+  "laurine-bremaud": >-
+    Centre de Ressources Montaigne
+  "nassima-choltus": >-
+    Secrétariat Information - Communication
+  "stephane-colnay": >-
+    Service Informatique
+  "aurelien-cornille": >-
+    Service Patrimoine logistique et maintenance
+  "melisse-debes": >-
+    Secrétariat Carrières sociales
+  "aurelie-doumbo": >-
+    Centre de Ressources Montaigne
+  "helene-ertle": >-
+    Gestion administrative et financière
+  "marina-esteves": >-
+    Service PAO
+  "johanna-hourregue": >-
+    Centre de Ressources Montaigne
+  "hugo-kabansky": >-
+    Service Informatique
+  "david-lachaud": >-
+    Service Patrimoine logistique et maintenance
+  "eric-lamothe": >-
+    Service Patrimoine logistique et maintenance
+  "catherine-lecart": >-
+    Service Formation continue
+  "salima-mahtout": >-
+    Service Patrimoine logistique et maintenance
+  "hmonneriesor": >-
+    Scolarité
+  "pauline-morisset": >-
+    Centre de Ressources Montaigne
+  "julien-muzard": >-
+    Service Informatique
+  "herve-panhaleux": >-
+    Service Informatique
+  "justin-puyo": >-
+    Service Informatique
+  "michele-quellier": >-
+    Gestion administrative et financière
+  "weiwei-reynet": >-
+    Gestion administrative et financière
+  "apolline-satta": >-
+    Centre de Ressources Montaigne
+  "camille-seguin": >-
+    Secrétariat Information - Communication
+  "laurianne-seran": >-
+    Gestion administrative et financière
+  "louise-elodie-seran": >-
+    Secrétariat Carrières sociales
+  "gaelle-suchestow": >-
+    Centre de Ressources Montaigne
+  "theodore-tangoulis": >-
+    Service Patrimoine logistique et maintenance
+  "corine-videau": >-
+    Scolarité
+  "mzaquithorea": >-
+    Centre de Ressources Montaigne
+roles:
+  - title: >-
+      Accueil
+    persons:
+  - title: >-
+      Gestion administrative et financière
+    persons:
+  - title: >-
+      Scolarité
+    persons:
+  - title: >-
+      Secrétariat Carrières sociales
+    persons:
+  - title: >-
+      Secrétariat PUB - MMI
+    persons:
+      - permalink: "/equipe/quentin-bessiere/"
+        path: "/persons/quentin-bessiere"
+        slug: "quentin-bessiere"
+        file: "content/fr/persons/quentin-bessiere.html"
+  - title: >-
+      Secrétariat Information - Communication
+    persons:
+  - title: >-
+      Service Formation continue
+    persons:
+  - title: >-
+      Service PAO
+    persons:
+  - title: >-
+      Service Informatique
+    persons:
+      - permalink: "/equipe/justin-puyo/"
+        path: "/persons/justin-puyo"
+        slug: "justin-puyo"
+        file: "content/fr/persons/justin-puyo.html"
+  - title: >-
+      Service Patrimoine logistique et maintenance
+    persons:
+  - title: >-
+      Centre de Ressources Montaigne
+    persons:
+---
