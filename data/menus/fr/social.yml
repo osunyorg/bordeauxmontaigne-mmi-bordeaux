@@ -2,18 +2,24 @@
 title: Liens sociaux
 items:
 - title: IUT Bordeaux Montaigne
+  slug: iut-bordeaux-montaigne
   target: https://www.iut.u-bordeaux-montaigne.fr
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Université Bordeaux Montaigne
+  slug: universite-bordeaux-montaigne
   target: https://www.u-bordeaux-montaigne.fr
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Observatoire MMI
+  slug: observatoire-mmi
   target: https://observatoire.butmmi.fr
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

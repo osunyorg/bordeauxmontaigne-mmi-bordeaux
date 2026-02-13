@@ -2,146 +2,220 @@
 title: Menu principal
 items:
 - title: La formation
+  slug: la-formation
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: BUT MMI
+    slug: but-mmi
     target: "/formations/metiers-du-multimedia-et-de-l-internet/"
     kind: program
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/programs/metiers-du-multimedia-et-de-l-internet"
     file: content/fr/programs/metiers-du-multimedia-et-de-l-internet/_index.html
   - title: Parcours
+    slug: parcours
     target: "/parcours/"
     kind: page
     new_tab: false
     children:
     - title: Stratégie
+      slug: strategie
       target: "/parcours/strategie/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/parcours/strategie"
       file: content/fr/pages/parcours/strategie/_index.html
     - title: Création
+      slug: creation
       target: "/parcours/creation/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/parcours/creation"
       file: content/fr/pages/parcours/creation/_index.html
     - title: Développement
+      slug: developpement
       target: "/parcours/developpement/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/parcours/developpement"
       file: content/fr/pages/parcours/developpement/_index.html
+    descendants_targets:
+    - "/parcours/creation/"
+    - "/parcours/developpement/"
+    - "/parcours/strategie/"
     path: "/pages/parcours"
     file: content/fr/pages/parcours/_index.html
   - title: Compétences
+    slug: competences
     target: "/competences/"
     kind: page
     new_tab: false
     children:
     - title: Comprendre
+      slug: comprendre
       target: "/competences/comprendre/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/competences/comprendre"
       file: content/fr/pages/competences/comprendre/_index.html
     - title: Concevoir
+      slug: concevoir
       target: "/competences/concevoir/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/competences/concevoir"
       file: content/fr/pages/competences/concevoir/_index.html
     - title: Exprimer
+      slug: exprimer
       target: "/competences/exprimer/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/competences/exprimer"
       file: content/fr/pages/competences/exprimer/_index.html
     - title: Développer
+      slug: developper
       target: "/competences/developper/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/competences/developper"
       file: content/fr/pages/competences/developper/_index.html
     - title: Entreprendre
+      slug: entreprendre
       target: "/competences/entreprendre/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/competences/entreprendre"
       file: content/fr/pages/competences/entreprendre/_index.html
+    descendants_targets:
+    - "/competences/comprendre/"
+    - "/competences/concevoir/"
+    - "/competences/developper/"
+    - "/competences/entreprendre/"
+    - "/competences/exprimer/"
     path: "/pages/competences"
     file: content/fr/pages/competences/_index.html
   - title: Pédagogie
+    slug: pedagogie
     target: "/pedagogie/"
     kind: page
     new_tab: false
     children:
     - title: Équipe
+      slug: equipe
       target: "/pedagogie/equipe-pedagogique/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/pedagogie/equipe-pedagogique"
       file: content/fr/pages/pedagogie/equipe-pedagogique/_index.html
     - title: Ateliers
+      slug: ateliers
       target: "/projets/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/projects"
       file: content/fr/projects/_index.html
     - title: Informations pratiques
+      slug: informations-pratiques
       target: "/pedagogie/informations-pratiques/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/pedagogie/informations-pratiques"
       file: content/fr/pages/pedagogie/informations-pratiques/_index.html
     - title: Alternance
+      slug: alternance
       target: "/pedagogie/alternance/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/pedagogie/alternance"
       file: content/fr/pages/pedagogie/alternance/_index.html
     - title: Partenaires
+      slug: partenaires
       target: "/pedagogie/partenaires/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/pedagogie/partenaires"
       file: content/fr/pages/pedagogie/partenaires/_index.html
     - title: Bibliographie
+      slug: bibliographie
       target: "/bibliographie"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/bibliographie"
+    - "/pedagogie/alternance/"
+    - "/pedagogie/equipe-pedagogique/"
+    - "/pedagogie/informations-pratiques/"
+    - "/pedagogie/partenaires/"
+    - "/projets/"
     path: "/pages/pedagogie"
     file: content/fr/pages/pedagogie/_index.html
+  descendants_targets:
+  - "/bibliographie"
+  - "/competences/"
+  - "/competences/comprendre/"
+  - "/competences/concevoir/"
+  - "/competences/developper/"
+  - "/competences/entreprendre/"
+  - "/competences/exprimer/"
+  - "/formations/metiers-du-multimedia-et-de-l-internet/"
+  - "/parcours/"
+  - "/parcours/creation/"
+  - "/parcours/developpement/"
+  - "/parcours/strategie/"
+  - "/pedagogie/"
+  - "/pedagogie/alternance/"
+  - "/pedagogie/equipe-pedagogique/"
+  - "/pedagogie/informations-pratiques/"
+  - "/pedagogie/partenaires/"
+  - "/projets/"
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Candidater
+  slug: candidater
   target: "/candidater/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/candidater"
   file: content/fr/pages/candidater/_index.html
 
