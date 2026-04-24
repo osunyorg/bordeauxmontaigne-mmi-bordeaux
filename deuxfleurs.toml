@@ -15,114 +15,114 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/parcours/strategie-de-communication-numerique-design-dexperiences/index.html"
+from = "/parcours/strategie-de-communication-numerique-design-dexperiences/"
 to = "/parcours/strategie/"
 
 [[redirects]]
-from = "/equipe/juliette-riviere-1/index.html"
+from = "/equipe/juliette-riviere-1/"
 to = "/equipe/juliette-riviere/"
 
 [[redirects]]
-from = "/ateliers/mmi-workshop/index.html"
+from = "/ateliers/mmi-workshop/"
 to = "/projets/2015-mmi-workshop/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/2015-mmi-workshop/index.html"
+from = "/pedagogie/ateliers/2015-mmi-workshop/"
 to = "/projets/2015-mmi-workshop/"
 
 [[redirects]]
-from = "/parcours/developpement-1/index.html"
+from = "/parcours/developpement-1/"
 to = "/parcours/developpement/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/2015-hors-champ/index.html"
+from = "/pedagogie/ateliers/2015-hors-champ/"
 to = "/projets/2015-hors-champ/"
 
 [[redirects]]
-from = "/ateliers/2016-cybersecurite/index.html"
+from = "/ateliers/2016-cybersecurite/"
 to = "/projets/2016-cybersecurite/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/index.html"
+from = "/pedagogie/ateliers/"
 to = "/projets/"
 
 [[redirects]]
-from = "/ateliers/2015-mmi-workshop/index.html"
+from = "/ateliers/2015-mmi-workshop/"
 to = "/projets/2015-mmi-workshop/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/2016-concours-d-eloquence/index.html"
+from = "/pedagogie/ateliers/2016-concours-d-eloquence/"
 to = "/projets/2016-concours-d-eloquence/"
 
 [[redirects]]
-from = "/parcours/creation-numerique/index.html"
+from = "/parcours/creation-numerique/"
 to = "/parcours/creation/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/2017-theories-animees/index.html"
+from = "/pedagogie/ateliers/2017-theories-animees/"
 to = "/projets/2017-theories-animees/"
 
 [[redirects]]
-from = "/ateliers/2017-theories-animees/index.html"
+from = "/ateliers/2017-theories-animees/"
 to = "/projets/2017-theories-animees/"
 
 [[redirects]]
-from = "/agenda/metiers-du-multimedia-et-de-l-internet/index.html"
+from = "/agenda/metiers-du-multimedia-et-de-l-internet/"
 to = "/agenda/offre-de-formation/metiers-du-multimedia-et-de-l-internet/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/2010-certification-opquast/index.html"
+from = "/pedagogie/ateliers/2010-certification-opquast/"
 to = "/projets/2010-certification-opquast/"
 
 [[redirects]]
-from = "/informations-pratiques/index.html"
+from = "/informations-pratiques/"
 to = "/pedagogie/informations-pratiques/"
 
 [[redirects]]
-from = "/actualites/2025-04-10-mmi-workshop-2025-j-1/index.html"
+from = "/actualites/2025-04-10-mmi-workshop-2025-j-1/"
 to = "/actualites/2025-04-10-mmi-workshop-2025/"
 
 [[redirects]]
-from = "/equipe/loic-lepetit-1/index.html"
+from = "/equipe/loic-lepetit-1/"
 to = "/equipe/loic-lepetit/"
 
 [[redirects]]
-from = "/ateliers/2010-certification-opquast/index.html"
+from = "/ateliers/2010-certification-opquast/"
 to = "/projets/2010-certification-opquast/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/2016-cybersecurite/index.html"
+from = "/pedagogie/ateliers/2016-cybersecurite/"
 to = "/projets/2016-cybersecurite/"
 
 [[redirects]]
-from = "/ateliers/2016-concours-d-eloquence/index.html"
+from = "/ateliers/2016-concours-d-eloquence/"
 to = "/projets/2016-concours-d-eloquence/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/ateliers-pedagogiques/index.html"
+from = "/pedagogie/ateliers/ateliers-pedagogiques/"
 to = "/projets/ateliers-pedagogiques/"
 
 [[redirects]]
-from = "/ateliers/2015-hors-champ/index.html"
+from = "/ateliers/2015-hors-champ/"
 to = "/projets/2015-hors-champ/"
 
 [[redirects]]
-from = "/pedagogie/ateliers/2020-design-interactif-et-integration/index.html"
+from = "/pedagogie/ateliers/2020-design-interactif-et-integration/"
 to = "/projets/2020-design-interactif-et-integration/"
 
 [[redirects]]
-from = "/ateliers/index.html"
+from = "/ateliers/"
 to = "/projets/"
 
 [[redirects]]
-from = "/partenaires/index.html"
+from = "/partenaires/"
 to = "/pedagogie/partenaires/"
 
 [[redirects]]
-from = "/equipe-pedagogique/index.html"
+from = "/equipe-pedagogique/"
 to = "/pedagogie/equipe-pedagogique/"
 
 [[redirects]]
-from = "/ateliers/2020-design-interactif-et-integration/index.html"
+from = "/ateliers/2020-design-interactif-et-integration/"
 to = "/projets/2020-design-interactif-et-integration/"
 
