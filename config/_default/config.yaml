@@ -1,5 +1,9 @@
 theme: mmibordeaux-hugo-theme
 _merge: deep
+security:
+  allowContent:
+    - html
+    - markdown
 params:
   programs:
     single:
