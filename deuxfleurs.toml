@@ -111,6 +111,10 @@ from = "/pedagogie/ateliers/2020-design-interactif-et-integration/index.html"
 to = "/projets/2020-design-interactif-et-integration/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/livret-but-2025-v6pdf/"
+
+[[redirects]]
 from = "/ateliers/index.html"
 to = "/projets/"
 
