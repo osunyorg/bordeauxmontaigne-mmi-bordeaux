@@ -19,6 +19,10 @@ from = "/parcours/strategie-de-communication-numerique-design-dexperiences/index
 to = "/parcours/strategie/"
 
 [[redirects]]
+from = "/actualites/2026-07-03-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens--www-iut-u-bordeaux-montaigne-fr/index.html"
+to = "/actualites/2026-09-11-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens--www-iut-u-bordeaux-montaigne-fr/"
+
+[[redirects]]
 from = "/equipe/juliette-riviere-1/index.html"
 to = "/equipe/juliette-riviere/"
 
